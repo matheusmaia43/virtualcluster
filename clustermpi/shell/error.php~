@@ -1,0 +1,7 @@
+<div id="boxes"> 
+	<div id="dialog" class="window">
+	<b>Howdyho!</b> <a href="#" class="close">Fechar [X]</a><br />
+	<br><b>Você digitou um comando bloqueado!</b><br /> 
+	<br><b>Comandos bloqueados: cp, mv e rm.</b>
+	</div>  
+</div>

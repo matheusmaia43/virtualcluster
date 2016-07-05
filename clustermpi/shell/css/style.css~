@@ -1,0 +1,149 @@
+.linux {
+	font-family: "Ubuntu Mono", Verdana, serif;
+	background-color: #000;
+	color: #00FF00;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: auto;
+	height: 250px;
+	padding: 5px;
+	margin-bottom: 60px;
+}
+
+.morfar {
+	position: fixed;
+	bottom: 48px;
+	/*define prioridade dos elementos flutuantes*/
+	z-index: 1;
+	right: 0px;
+}
+
+.footer {
+	background-color: #000;
+	padding-top: 40px;
+	border-radius: 5px;
+}
+
+.vol {
+	position: absolute;
+	top: -5px;
+	right: 6px;
+	height: 45px;
+	width: 45px;
+}
+
+.sle {
+	position: absolute;
+	top: 4px;
+	right: 46px;
+	height: 36px;
+	width: 150px;
+}
+
+#navigationMenu li {
+	/*list-style: none tira a Bolinha da lista*/
+	list-style: none;
+	height: 39px;
+	float: right;
+	width: 40px;
+}
+
+#navigationMenu span {
+	/* Container properties */
+	width: 0;
+	right: 38px;
+	padding: 0;
+	position: absolute;
+	overflow: hidden;
+	/* Text properties */
+	font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0.6px;
+	white-space: nowrap;
+	line-height: 39px;
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a {
+	background: url('../img/scroll.png') no-repeat;
+	height: 39px;
+	width: 38px;
+	display: block;
+	/*position:fixed; Faz andar junto com o Scroll*/
+	position: fixed;
+}
+
+/*Definições para o botão de ajuda*/
+#navigationMenu a:hover span {
+	width: auto;
+	padding: 0 5px;
+	overflow: visible;
+}
+
+#navigationMenu a:hover {
+	text-decoration: none;
+	/* CSS box-shadow */
+	-moz-box-shadow: 0 0 5px #9ddff5;
+	-webkit-box-shadow: 0 0 5px #9ddff5;
+	box-shadow: 0 0 5px #9ddff5;
+}
+
+/* botão azul */
+#navigationMenu .about {
+	background-position: -38px 0;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#navigationMenu .about:hover {
+	background-position: -38px -39px;
+}
+
+#navigationMenu .about span {
+	background-color: transparent;
+	color: #000000;
+	text-shadow: 1px 1px 0 #9ddff5;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#boxes .window {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 440px;
+	height: 200px;
+	display: none;
+	z-index: 9999;
+	padding: 20px;
+}
+
+#boxes #dialog {
+	background: url(../img/notice.png) no-repeat 0 0 transparent;
+	width: 337px;
+	height: 229px;
+	padding: 50px 0 20px 25px;
+}
+
+.close {
+	display: block;
+	position: absolute;
+}
+
+.rodape {
+	position: fixed;
+	bottom: 0px;
+}

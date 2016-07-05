@@ -1,0 +1,75 @@
+#navigationMenu li{
+	/*list-style: none tira a Bolinha da lista*/	
+	list-style:none;
+	height:39px;
+	float: right;
+	width:40px;
+	
+}
+
+#navigationMenu span{
+	/* Container properties */
+	width:0;
+	right:38px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+
+	/* Text properties */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+	
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a{
+	background:url('img/scroll.png') no-repeat;
+	height:39px;
+	width:38px; 
+	display:block;
+	/*position:fixed; Faz andar junto com o Scroll*/
+	position: fixed;
+	
+}
+
+/* General hover styles */
+
+#navigationMenu a:hover span{ width:auto; padding:0 10px;overflow:visible; }
+#navigationMenu a:hover{
+	text-decoration:none;
+	
+	/* CSS outer glow with the box-shadow property */
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow:0 0 5px #9ddff5;
+}
+
+/* Blue Button */
+
+#navigationMenu .about { background-position:-38px 0; -moz-border-radius: 5px; border-radius: 5px;}
+#navigationMenu .about:hover { background-position:-38px -39px;}
+#navigationMenu .about span{
+	background-color:transparent;
+	color:#000000;
+	text-shadow:1px 1px 0 #9ddff5;
+-moz-border-radius: 5px; border-radius: 5px;
+}
+
+/* The styles below are only needed for the demo page */
+
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+

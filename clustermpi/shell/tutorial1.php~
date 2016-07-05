@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<?php
+error_reporting (E_ALL);
+require ("classes/funcoes.php");
+$display = new Display();
+?>
+<html>
+<?php
+$display->display_header();
+?>
+<?php
+$display->display_menu();
+?>
+<!--Inicia o corpo do Site-->
+
+                    <h3>Início. Como usar?</h3>
+                    <p>Existem milhares de comandos linux, vários interpretadores de comandos, e começar a utiliza-los pode ser uma tarefa difícil. Esta ferramenta facilita o seu trabalho, introduzindo usuários. Didático. Os comandos executados são exibidos em uma espécie de "Terminal". Em vermelho: comando executado. Em verde: resultado em tela. 
+...........................................................................
+...........................................................................
+...........................................................................</p>
+ <img src="img/inicio.png" alt="" >
+             
+
+<div class="row">
+	<?php
+	$display->display_footer();
+	?>
+</div>
+</html>

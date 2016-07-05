@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<?php
+error_reporting (E_ALL);
+require ("classes/funcoes.php");
+$display = new Display();
+?>
+<html>
+<?php
+$display->display_header();
+?>
+<?php
+$display->display_menu();
+?>
+<!--Inicia o corpo do Site-->
+
+                    <h3>Parâmetros. Como usar?</h3>
+                    <p>Este menu introduz o usuário à utilização de passagem de parâmetros, muito necessários para a utilização do GNU/Linux.
+Além de marcar uma opção, é necessário informar o parâmetro que será mesclado com a opção, este pode ser qualquer coisa, como por exemplo um diretório: /home ou um programa: firefox. Opção + parâmetro = resultado. </p>
+
+<h5>1º Exemplo </h5>
+ <img src="img/parametros.png" align="center">
+<p>Exeplicação</p>
+<h5>2º Exemplo </h5>
+ <img src="img/parametros2.png" align="middle">
+<p>Exeplicação</p>
+             
+
+<div class="row">
+	<?php
+	$display->display_footer();
+	?>
+</div>
+</html>
