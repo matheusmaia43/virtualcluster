@@ -1,0 +1,2 @@
+Warning: Permanently added '172.17.42.4' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'slave1,172.17.42.5' (ECDSA) to the list of known hosts.
