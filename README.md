@@ -6,4 +6,4 @@ simples, clusters virtuais e a execução de códigos desenvolvidos pelos alunos
 simples e intuitiva.
 
 No youtube, uma simples demonstração da ferramenta, onde observamos a execução de alguns códigos.
-Link: https://www.youtube.com/watch?v=WMagJoBYp_s
+Link: https://www.youtube.com/watch?v=R24qtDRAyBw
